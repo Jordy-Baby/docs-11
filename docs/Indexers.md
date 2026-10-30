@@ -5,13 +5,13 @@ title: "Indexers"
 
 # Indexers
 
-Envio is the data layer for blockchain apps. It gives AB developers the fastest, most flexible way to get real-time and historical onchain data, from a single GraphQL API to raw high-speed access, with managed hosting on Envio Cloud.
+Envio builds custom blockchain APIs and analytics. AB developers can use HyperIndex to choose the contracts and events to track, write TypeScript handlers and query the result through a GraphQL API, then run it themselves or deploy to Envio Cloud.
 
 ## Envio
 
-[Envio](https://envio.dev/?utm_source=ab&utm_medium=partner-docs) provides HyperIndex, a full-featured indexing framework, and HyperSync, a high-speed data engine, so AB developers can turn smart contract events into a queryable GraphQL API.
+[Envio](https://envio.dev/?utm_source=ab&utm_medium=partner-docs) provides HyperIndex, an indexing framework, and HyperSync, a blockchain data API.
 
-AB is supported on Envio HyperSync, a high-speed data source that can be up to 2000x faster than standard RPC. You can index AB with HyperIndex, define the events and entities you care about, and serve them through a ready to use GraphQL API.
+HyperSync serves AB logs, transactions and blocks, filtered on the server.
 
 ### Network support
 
@@ -24,8 +24,8 @@ AB is supported on Envio HyperSync, a high-speed data source that can be up to 2
 ### Features
 
 * Real-time and historical onchain data through a single GraphQL API
-* HyperSync access up to 2000x faster than standard RPC
-* Flexible schema and event handlers written in familiar languages
+* HyperSync queries filtered on the server, returning only the fields you need
+* Custom schemas and event handlers written in TypeScript
 * Managed hosting on Envio Cloud, or self host wherever you prefer
 
 ### Resources
